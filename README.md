@@ -1,5 +1,10 @@
-If the number of installments is less than 4, the interest rate will be 0% (0 / 100).
-If the number of installments is 4 or more but less than 6, the interest rate will be 4% (4 / 100).
-If the number of installments is 6 or more but less than 9, the interest rate will be 8% (8 / 100).
-If the number of installments is 9 or more but less than 13, the interest rate will be 16% (16 / 100).
-If the number of installments is 13 or more, the interest rate will be 32% (32 / 100).
+
+This system calculates the total purchase amount based on the selected number of installments. The interest rate is automatically determined according to the number of installments:
+
+* **Less than 4 installments:** 0% interest
+* **4 to 5 installments:** 4% interest
+* **6 to 8 installments:** 8% interest
+* **9 to 12 installments:** 16% interest
+* **13 or more installments:** 32% interest
+
+The system calculates the applicable interest and displays the final amount based on the selected payment plan.
